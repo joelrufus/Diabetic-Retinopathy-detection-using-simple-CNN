@@ -12,8 +12,8 @@ This project provides a complete pipeline for detecting diabetic retinopathy (DR
 
 The repository contains two main components:
 
-1. # `simple_cnn_model_training.py : This script is responsible for training a CNN model on a dataset of retinal images.
-2. # `simple_cnn_model_testing.ipynb`: This Jupyter Notebook is used for validating and testing the trained model.
+1. # simple_cnn_model_training.py : This script is responsible for training a CNN model on a dataset of retinal images.
+2. # simple_cnn_model_testing.ipynb: This Jupyter Notebook is used for validating and testing the trained model.
 3. # requirements.txt
 The dataset consists of retinal images divided into 5 folders based on the severity of diabetic retinopathy (No_DR, Mild, Moderate, Severe, Proliferate_DR). Additionally, a CSV file data_labels.csv provides the image file name and its associated diagnosis.
 

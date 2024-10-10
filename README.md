@@ -28,7 +28,8 @@ id_code, diagnosis
 Install the required libraries using the following in terminal:
 pip install -r requirements.txt
 
-# The script simple_cnn_model_training.py loads the images and labels from the dataset, processes them, and trains a CNN model. The key steps in the script include:
+# The script simple cnn model training.py loads the images and labels from the dataset, processes them, and trains a CNN model. The key steps in the script include:
+
 1.Loading images: Images are read from the dataset folder, resized to 224x224, and normalized.
 2.Model architecture: A simple CNN model is built using TensorFlow/Keras.
 3.Class weights: Class weights are calculated to address the class imbalance in the dataset.
